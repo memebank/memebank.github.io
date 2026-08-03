@@ -1,0 +1,65 @@
+---
+import "../styles/global.css";
+
+const features = [
+  {
+    title: "Find the exact reaction",
+    body: "Search OCR, captions, tags, templates, and visual meaning with PostgreSQL full-text search plus model-specific vectors.",
+  },
+  {
+    title: "Copy, then keep moving",
+    body: "One explicit action places the image or file on your clipboard. ClipTown can preserve it through its normal consent and sync rules.",
+  },
+  {
+    title: "Your storage, your policy",
+    body: "Keep originals in S3, Cloudflare R2, Google Drive, OneDrive, iCloud Drive, or local-only collections. Cloud analysis is opt-in.",
+  },
+];
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Memebank catalogs, tags, searches, syncs, and copies your image and meme library."
+    />
+    <meta name="viewport" content="width=device-width" />
+    <title>Memebank — Memes are a concurrency.</title>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <div class="brand"><span class="mark">MB</span> Memebank</div>
+        <a class="button" href="https://github.com/memebank">GitHub</a>
+      </nav>
+
+      <section class="hero">
+        <span class="eyebrow">Image memory for every device</span>
+        <h1>Memes are a concurrency.</h1>
+        <p class="lede">
+          Catalog images, understand the words and ideas inside them, organize
+          collections across your own storage, and copy the perfect meme before
+          the moment passes.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="#product">Explore the product</a>
+          <a class="button" href="https://github.com/cliptown">Works with ClipTown</a>
+        </div>
+      </section>
+
+      <section class="grid" id="product">
+        {
+          features.map((feature) => (
+            <article class="card">
+              <h2>{feature.title}</h2>
+              <p>{feature.body}</p>
+            </article>
+          ))
+        }
+      </section>
+
+      <footer>Memebank · Memes are a concurrency.</footer>
+    </main>
+  </body>
+</html>
