@@ -1,0 +1,28 @@
+{
+  "approved_source_head": "b693ba989b775b4ea280e75c86a809479d073b80",
+  "approved_source_tree": "01cfa4b0d36b60d281a87d53b35e8d1e53b2ba94",
+  "canonical_visibility": "private",
+  "github_project": {
+    "number": 1,
+    "title": "memebank-project",
+    "url": "https://github.com/orgs/memebank/projects/1"
+  },
+  "organization": "memebank",
+  "publication_run_id": "31138282606-1",
+  "published_at": "2026-08-07T01:39:33.118380+00:00",
+  "repository": "memebank.github.io",
+  "repository_id": 1326071570,
+  "role": "Astro marketing, documentation, privacy, support, and download site",
+  "schema_version": 1,
+  "source_archive_sha256": "b451cce7de72ce67ad7dd135db794d54f34ff6b83c2d5bf8a7c0baf6df91b167",
+  "source_manifest": "ORESoftware/ai-agent-coordinator.rs:repository-fleets/memebank-source-v2.json",
+  "tracked_entries": 11,
+  "tracking_issues": [
+    "DEN-1004",
+    "DEN-1005",
+    "DEN-1043",
+    "DEN-319",
+    "DEN-1011",
+    "DEN-1018"
+  ]
+}
